@@ -1,6 +1,5 @@
 # CMT-pytorch
-Source code and generated samples for CMT (Chord Conditioned Melody Transformer) model introduced in 
-["Chord Conditioned Melody Generation with Transformer Based Decoders"](https://ieeexplore.ieee.org/abstract/document/9376975)
+  music generation using transformer and reinforcement learning-pytorch
 
 
 ## Requirements
