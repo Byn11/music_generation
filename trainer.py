@@ -8,7 +8,7 @@ from scipy.sparse import csc_matrix
 from utils import logger
 from utils.metrics import cal_metrics,ac_loss
 from utils.utils1 import *
-from dataset1 import collate_fn
+from dataset import collate_fn
 
 x_fontdict = {'fontsize': 6,
              'verticalalignment': 'top',

@@ -8,9 +8,9 @@ from utils import logger
 from utils.hparams import HParams
 from utils.utils1 import make_save_dir, get_optimizer
 from loss import FocalLoss,get_cross_entorpy
-from dataset1 import get_loader
-from model1 import ChordConditionedMelodyTransformer as CMT
-from trainer1 import CMTtrainer
+from dataset import get_loader
+from model import ChordConditionedMelodyTransformer as CMT
+from trainer import CMTtrainer
 
 # hyperparameter - using argparse and parameter module
 parser = argparse.ArgumentParser() #创建argparse对象
