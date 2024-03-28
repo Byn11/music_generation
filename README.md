@@ -62,13 +62,4 @@ $ python run.py
   * `NUMBER_OF_GPU`: number of GPUs to use. If not specified, use only CPU.
   * `OPTIMIZER`: Optimizer to use. One of `sgd`, `adam`, `rmsprop`, default is `adam`
   * `RESTORE_EPOCH`: which checkpoint to restore when continuing an experiment
- 
-### 1st phase
-Train the rhythm decoder (RD) with pitch varied rhythm data.
-In `hparams.yaml`, set the data_io path to directory containing pkl files with 12 different keys.
 
-
-### 2nd phase
-Retain RD from the 1st phase and train pitch decoder (PD) with single key data.
-In experiment config of `hparams.yaml`, specify the experiment index and epoch to load RD from (for example, idx 1, epoch 100).
-Execute `run.py` with additional `--load_rhythm` argument.
